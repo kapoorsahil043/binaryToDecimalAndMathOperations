@@ -5,7 +5,8 @@ Convert binary to decimal and perform below operations to find number of iterati
 Eg. Convert binary (011000) to decimal number. It's value would be 28;
 Now, perform below operations on decimal value (i.e 28), till it reaches to 0;
 
-If decimal number is even then divide it with 2
-If decimal number is even then substract it with 1;
+If decimal number is even then divide it with 2.
+
+If decimal number is an old then substract it with 1;
 
 
