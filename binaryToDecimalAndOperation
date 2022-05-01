@@ -1,0 +1,21 @@
+
+/*
+This is an optimized program
+*/
+
+public class MyClass {
+    
+    public static void operation(int v,int count){
+        if(v==0){
+            System.out.println("count -> "+count);
+            return;
+        }
+          operation(v%2==0 ? v/2: v-1,++count);
+    }
+    
+    public static void main(String args[]) {
+        String binarynumber="011100";
+        int d=Integer.parseInt(binarynumber,2);
+        operation(d,0);
+    }
+}
